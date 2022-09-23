@@ -1,5 +1,7 @@
+import { navLinks } from "../nav/nav_links";
+
 function Home() {
-  return <div className="h-full w-full">home</div>;
+  return <div id={navLinks.home.destination} className="h-screen w-full">home</div>;
 }
 
 export default Home;

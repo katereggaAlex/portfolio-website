@@ -1,41 +1,23 @@
 import { useState } from "react";
 import {Link} from "react-scroll";
+import NavBar from "./nav/navbar";
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import Home from "./pages/Home";
+import Projects from "./pages/projects";
+import Tech from "./pages/tech";
 
 function App() {
 
   return (
-    <div>
-      <Link
-        activeClass="active"
-        to="test1"
-        spy={true}
-        smooth={true}
-        offset={50}
-        duration={500}
-      >
-        Test 1
-      </Link>
-      <Link
-        activeClass="active"
-        to="test1"
-        spy={true}
-        smooth={true}
-        offset={50}
-        duration={500}
-        delay={1000}
-      >
-        Test 2 (delay)
-      </Link>
-      <Link
-        className="test6"
-        to="anchor"
-        spy={true}
-        smooth={true}
-        duration={500}
-      >
-        Test 6 (anchor)
-      </Link>
-    </div>
+    <div className="h-screen w-full">
+        <NavBar />
+        <Home />
+        <About />
+        <Contact />
+        <Projects />
+        <Tech />
+      </div>
   );
 }
 

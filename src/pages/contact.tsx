@@ -1,5 +1,7 @@
+import { navLinks } from "../nav/nav_links";
+
 function Contact() {
-  return <div className="h-full w-full">contact</div>;
+  return <div id={navLinks.contact.destination} className="h-screen w-full">contact</div>;
 }
 
 export default Contact;
