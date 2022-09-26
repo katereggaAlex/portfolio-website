@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .layer {
+    @apply h-screen text-white mt-10 pt-10 w-full pb-5 px-5;
+  }
+}

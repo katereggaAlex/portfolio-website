@@ -2,7 +2,10 @@ import { navLinks } from "../nav/nav_links";
 
 function Tech() {
   return (
-    <div id={navLinks.tech.destination} className="h-screen w-full">
+    <div
+      id={navLinks.tech.destination}
+      className="layer"
+    >
       Tech
     </div>
   );

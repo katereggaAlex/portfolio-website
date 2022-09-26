@@ -10,14 +10,14 @@ import Tech from "./pages/tech";
 function App() {
 
   return (
-    <div className="h-screen w-full">
-        <NavBar />
-        <Home />
-        <About />
-        <Contact />
-        <Projects />
-        <Tech />
-      </div>
+    <div className="h-full relative w-full bg-app_color">
+      <NavBar />
+      <Home />
+      <About />
+      <Contact />
+      <Projects />
+      <Tech />
+    </div>
   );
 }
 
