@@ -1,0 +1,54 @@
+.circle {
+  position: relative;
+  border: 2px solid #d87272;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.small-circle {
+  position: absolute;
+  left: calc(50% - 41px);
+  top: calc(50% - 41px);
+  height: 82px;
+  width: 82px;
+  border: 2px solid #d87272;
+  border-radius: 50%;
+}
+
+.small-circle:nth-child(1) {
+  transform: translateX(250px);
+}
+
+.small-circle:nth-child(2) {
+  transform: rotate(90deg) translateX(250px) rotate(-90deg);
+}
+
+.small-circle:nth-child(3) {
+  transform: rotate(180deg) translateX(250px) rotate(-180deg);
+}
+
+.small-circle:nth-child(4) {
+  transform: rotate(270deg) translateX(250px) rotate(-270deg);
+}
+
+.spinning-circle {
+  animation-name: rotate;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: running;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    transform: rotateX(-360deg);
+    transform: rotateY(-360deg);
+    transform: rotateZ(-360deg);
+  }
+  to {
+    transform: rotateX(360deg);
+    transform: rotateY(360deg);
+    transform: rotateZ(360deg);
+  }
+}

@@ -4,6 +4,10 @@
 
 @layer components {
   .layer {
-    @apply h-screen text-white mt-10 pt-10 w-full pb-5 px-5;
+    @apply h-full text-white mt-10 pt-10 w-full pb-5 px-5;
+  }
+
+  .transition-grow {
+    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300;
   }
 }

@@ -7,7 +7,7 @@ function NavBar() {
 
   return (
     <nav className="flex fixed top-0 left-0 right-0 flex-row items-center shadow justify-between p-5 bg-app_color w-full">
-      <h1 className="text-white font-bold text-2xl">Kabba Joseph Timothy</h1>
+      <h1 className="text-white font-bold text-2xl">var name = "KabbaJosephTimothy"</h1>
 
       <ul className="flex text-lg text-white flex-row justify-center">
         {links.map((navLink, index) => (

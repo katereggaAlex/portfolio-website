@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {Link} from "react-scroll";
 import NavBar from "./nav/navbar";
-import About from "./pages/about";
+import Expertise from "./pages/expertise";
 import Contact from "./pages/contact";
 import Home from "./pages/Home";
 import Projects from "./pages/projects";
@@ -13,7 +13,7 @@ function App() {
     <div className="h-full relative w-full bg-app_color">
       <NavBar />
       <Home />
-      <About />
+      <Expertise />
       <Contact />
       <Projects />
       <Tech />
