@@ -1,0 +1,10 @@
+.image {
+  z-index: 1;
+}
+
+.image:before {
+  content: "";
+  background-image: url(../../public/images/squares.jpg);
+  background-size: cover;
+  opacity: 0.2;
+}

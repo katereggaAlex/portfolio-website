@@ -10,11 +10,11 @@ export default function InfoCard({
     <div className="flex flex-col sm:ml-10 shadow-xl bg-white mt-10 rounded-xl transition-grow">
       <div className="flex flex-row p-3 justify-start">
         <div className="rounded-full shadow w-4 h-4 mr-2 bg-red-400"></div>
-        <div className="rounded-full shadow w-4 h-4 mr-2 bg-blue-400"></div>
-        <div className="rounded-full shadow w-4 h-4 bg-yellow-400"></div>
+        <div className="rounded-full shadow w-4 h-4 mr-2 bg-orange-400"></div>
+        <div className="rounded-full shadow w-4 h-4 bg-green-400"></div>
       </div>
-      <hr className="bg-white mt-1" />
-      <div className="text-gray-500 p-6 font-bold">
+      <hr className="bg-black mt-1" />
+      <div className="text-cyan-700 p-6 font-bold">
         <text>{brackets[0]}</text>
         <ul className="ml-4">
           {personalInfo.map((value, key) => (
