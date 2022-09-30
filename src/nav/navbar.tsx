@@ -7,7 +7,7 @@ function NavBar() {
   const [links, _] = useState(getNavLinks());
 
   return (
-    <nav className="flex fixed top-0 left-0 right-0 flex-row items-center bg-transparent  sm:justify-center w-full">
+    <nav className="flex fixed z-20 top-0 left-0 right-0 flex-row items-center bg-transparent  sm:justify-center w-full">
       <div className="">
         <ul className="flex text-base bg-blur p-4 m-5 z-10 rounded-xl border shadow border-cyan-400 text-cyan-400 flex-row justify-center">
           {links.map((navLink, index) => (

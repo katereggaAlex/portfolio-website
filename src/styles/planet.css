@@ -1,40 +1,96 @@
+:root {
+  --circle-size: 25rem;
+  --circle-size-1: 21.875rem;
+  --circle-size-2: 18.75rem;
+  --circle-size-3: 15.625rem;
+  --circle-size-4: 12.5rem;
+  --circle-border: 1px;
+  --circle-color-opacity: 0.4;
+}
+
 .circle {
-  position: relative;
-  border: 2px solid #d87272;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--circle-border) solid
+    rgba(15, 23, 43, var(--circle-color-opacity));
   border-radius: 50%;
-  width: 400px;
-  height: 400px;
+  width: var(--circle-size);
+  height: var(--circle-size);
 }
 
-.small-circle {
+.circle-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--circle-border) solid
+    rgba(15, 23, 43, var(--circle-color-opacity));
+  border-radius: 50%;
+  width: var(--circle-size-1);
+  height: var(--circle-size-1);
+}
+
+.circle-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--circle-border) solid
+    rgba(15, 23, 43, var(--circle-color-opacity));
+  border-radius: 50%;
+  width: var(--circle-size-2);
+  height: var(--circle-size-2);
+}
+
+.circle-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--circle-border) solid
+    rgba(15, 23, 43, var(--circle-color-opacity));
+  border-radius: 50%;
+  width: var(--circle-size-3);
+  height: var(--circle-size-3);
+}
+
+.circle-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--circle-border) solid
+    rgba(15, 23, 43, var(--circle-color-opacity));
+  border-radius: 50%;
+  width: var(--circle-size-4);
+  height: var(--circle-size-4);
+}
+
+.side-image {
   position: absolute;
-  left: calc(50% - 41px);
-  top: calc(50% - 41px);
-  height: 82px;
-  width: 82px;
-  border: 2px solid #d87272;
-  border-radius: 50%;
+  transform: translate(calc(var(--circle-size) / 2));
 }
 
-.small-circle:nth-child(1) {
-  transform: translateX(250px);
+.side-image-1 {
+  position: absolute;
+  transform: translate(calc(var(--circle-size-1) / 2));
 }
 
-.small-circle:nth-child(2) {
-  transform: rotate(90deg) translateX(250px) rotate(-90deg);
+.side-image-2 {
+  position: absolute;
+  transform: translate(calc(var(--circle-size-2) / 2));
 }
 
-.small-circle:nth-child(3) {
-  transform: rotate(180deg) translateX(250px) rotate(-180deg);
+.side-image-3 {
+  position: absolute;
+  transform: translate(calc(var(--circle-size-3) / 2));
 }
 
-.small-circle:nth-child(4) {
-  transform: rotate(270deg) translateX(250px) rotate(-270deg);
+.side-image-4 {
+  position: absolute;
+  transform: translate(calc(var(--circle-size-4) / 2));
 }
 
 .spinning-circle {
   animation-name: rotate;
-  animation-duration: 50s;
+  animation-duration: 100s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-play-state: running;
@@ -42,13 +98,9 @@
 
 @-webkit-keyframes rotate {
   from {
-    transform: rotateX(-360deg);
-    transform: rotateY(-360deg);
-    transform: rotateZ(-360deg);
+    transform: rotate(360deg);
   }
   to {
-    transform: rotateX(360deg);
-    transform: rotateY(360deg);
-    transform: rotateZ(360deg);
+    transform: rotate(-360deg);
   }
 }

@@ -1,14 +1,14 @@
 import { navLinks } from "../nav/nav_links";
 
-function Tech() {
+function Experience() {
   return (
     <div
-      id={navLinks.tech.destination}
+      id={navLinks.experience.destination}
       className="layer"
     >
-      Tech
+      Experience
     </div>
   );
 }
 
-export default Tech;
+export default Experience;

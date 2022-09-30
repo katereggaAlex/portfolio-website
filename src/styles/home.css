@@ -1,10 +1,15 @@
 .image {
-  z-index: 1;
+  position: relative;
+  isolation: isolate;
 }
 
-.image:before {
+.image::after {
   content: "";
-  background-image: url(../../public/images/squares.jpg);
+  z-index: -1;
+  background-image: linear-gradient(to bottom, transparent, 60%, #0f172b),
+    url(../../public/images/squares.jpg);
   background-size: cover;
-  opacity: 0.2;
+  opacity: 0.6;
+  position: absolute;
+  inset: 0;
 }

@@ -10,7 +10,7 @@ function Expertise() {
     return lastIndex === counter;
   };
   return (
-    <div id={navLinks.about.destination} className="layer">
+    <div id={navLinks.expertise.destination} className="layer">
       <h1 className="text-2xl m-5 sm:text-4xl">Expertise</h1>
 
       <div className="rounded-xl shadow m-5 p-10 border border-white flex flex-col sm:flex-row">

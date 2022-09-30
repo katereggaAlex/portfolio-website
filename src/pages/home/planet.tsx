@@ -1,14 +1,50 @@
 import "../../styles/planet.css";
+import data from "../../data/personal.json";
+import { useState } from "react";
 
 export default function Planet() {
+  const [images, _] = useState(data.planet);
   return (
-    <div className="p-6 flex flex-col justify-center items-center flex-grow">
-      <div className="">
+    <div className="pt-16 flex flex-col justify-center items-center flex-grow">
+      <div className="circle spinning-circle">
         <img
-          className="rounded-full transition-grow h-40 w-40"
-          src="../../../public/images/profile.jpeg"
+          className="rounded-full  side-image h-6 w-6"
+          alt="svgImg"
+          src={images.imageOne}
         />
+        <div className="circle-1 spinning-circle">
+          <img
+            className="rounded-full  side-image-1 h-6 w-6"
+            alt="svgImg"
+            src={images.imageTwo}
+          />
+          <div className="circle-2 spinning-circle">
+            <img
+              className="rounded-full  side-image-2 h-6 w-6"
+              alt=""
+              src={images.imageThree}
+            />
+            <div className="circle-3 spinning-circle">
+              <img
+                alt="svgImg"
+                className="rounded-full  side-image-3  h-6 w-6"
+                src={images.imageFour}
+              />
+              <div className="circle-4 spinning-circle">
+                <img
+                  className="rounded-full  side-image-4 h-6 w-6"
+                  alt="svgImg"
+                  src={images.imageFive}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <img
+        className="rounded-full -translate-y-[17rem] h-36 w-36"
+        src="../../../public/images/profile.jpeg"
+      />
     </div>
   );
 }

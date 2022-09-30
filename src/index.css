@@ -4,7 +4,7 @@
 
 @layer components {
   .layer {
-    @apply text-white h-screen pt-20 w-full pb-5 px-5;
+    @apply h-full overflow-hidden text-white sm:h-screen pt-20 w-full pb-5 px-5;
   }
 
   .transition-grow {
