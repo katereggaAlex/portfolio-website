@@ -4,10 +4,14 @@
 
 @layer components {
   .layer {
-    @apply h-full overflow-hidden text-white sm:h-screen pt-20 w-full pb-5 px-5;
+    @apply h-full overflow-hidden text-text_custom pt-20 w-full pb-5 px-5;
   }
 
   .transition-grow {
     @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300;
+  }
+
+  .heading {
+    @apply text-2xl p-5 sm:ml-12 font-semibold sm:text-4xl
   }
 }

@@ -11,9 +11,9 @@ function Expertise() {
   };
   return (
     <div id={navLinks.expertise.destination} className="layer">
-      <h1 className="text-2xl m-5 sm:text-4xl">Expertise</h1>
+      <h1 className="heading">Expertise</h1>
 
-      <div className="rounded-xl shadow m-5 p-10 border border-white flex flex-col sm:flex-row">
+      <div className="rounded-xl m-5 p-10 flex flex-col sm:flex-row">
         <div className="grow px-5">
           <div className="flex flex-row">
             <img className="w-14 h-14 mr-3" src={expertiseData.android.icon} />
@@ -40,7 +40,7 @@ function Expertise() {
             )}
           </p>
         </div>
-        <div className="bg-white w-1 sm:visible invisible float-none rounded mx-4"></div>
+        <div className="bg-white w-3 sm:visible invisible float-none rounded mx-4"></div>
         <div className="grow px-5 sm:mt-0 mt-10">
           <div className="flex flex-row">
             <img className="w-14 h-14 mr-3" src={expertiseData.software.icon} />
@@ -67,7 +67,7 @@ function Expertise() {
             )}
           </p>
         </div>
-        <div className="bg-white w-1 sm:visible invisible float-none rounded mx-4"></div>
+        <div className="bg-white w-3 sm:visible invisible float-none rounded mx-4"></div>
         <div className="grow px-5 sm:mt-0 mt-10">
           <div className="flex flex-row">
             <img className="w-14 h-14 mr-3" src={expertiseData.frontend.icon} />
@@ -94,7 +94,7 @@ function Expertise() {
             )}
           </p>
         </div>
-        <div className="bg-white w-1 sm:visible invisible float-none rounded mx-4"></div>
+        <div className="bg-white w-3 sm:visible invisible float-none rounded mx-4"></div>
         <div className="grow px-5 sm:mt-0 mt-10">
           <div className="flex flex-row">
             <img className="w-14 h-14 mr-3" src={expertiseData.backend.icon} />
