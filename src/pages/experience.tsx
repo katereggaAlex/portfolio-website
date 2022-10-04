@@ -16,7 +16,7 @@ function Experience() {
             key={key}
             className="w-full flex flex-col justify-center items-center"
           >
-            <div className="text-white rounded-xl  opacity-75 text-xl max-w-5xl justify-between w-full py-3 px-5 bg-green-500 flex flex-col sm:flex-row">
+            <div className="text-white rounded-xl   text-xl max-w-5xl justify-between w-full py-3 px-5 background-header flex flex-col sm:flex-row">
               <h1>{`${value[1].title} at ${value[0]}`}</h1>
               <h1>{value[1].duration}</h1>
             </div>
