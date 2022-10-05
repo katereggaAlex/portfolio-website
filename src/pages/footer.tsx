@@ -5,7 +5,7 @@ export default function Footer() {
         This site was created by Kabba Joseph Timothy
       </h1>
 
-      <h1 className="w-full sm:text-right">copyright since 2022</h1>
+      <h1 className="w-full sm:text-right">©copyright since 2022</h1>
     </div>
   );
 }
