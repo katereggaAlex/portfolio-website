@@ -9,7 +9,11 @@ export const navLinks: { [index: string]: Link } = {
   project: { name: "//Projects", destination: "projects" },
   experience: { name: "//Experience", destination: "experience" },
   contact: { name: "//Contact", destination: "contact" },
-  resume: { name: "//Resume", destination: "" },
+  resume: {
+    name: "//Resume",
+    destination:
+      "https://drive.google.com/file/d/1JEcFZAH_KA6Ugf_nc0kGU67GnuRLBDFZ/view",
+  },
 };
 
 export function getNavLinks(): Link[] {

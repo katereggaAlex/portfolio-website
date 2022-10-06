@@ -7,14 +7,18 @@ function NavBar() {
   const [links, _] = useState(getNavLinks());
 
   return (
-    <nav className="flex fixed z-20 top-0 left-0 right-0  flex-row items-center bg-transparent sm:justify-center w-full">
-      <div className="">
-        <ul className="flex text-base bg-blur p-4 mt-5 z-10 rounded-xl border shadow border-cyan-400 text-cyan-400 flex-row justify-center">
-          {links.map((navLink, index) => (
-            <li
-              className="ml-3 hover:text-green-400 cursor-pointer mr-3"
-              key={index}
-            >
+    <nav className="flex z-10 fixed top-0 left-0 right-0 flex-row items-center sm:justify-center w-full">
+      <ul className="flex text-base bg-blur z-20 p-4 m-5 rounded-xl border shadow border-cyan-400 text-cyan-500 flex-row justify-center">
+        {links.map((navLink, index) => (
+          <li
+            className="ml-3 hover:text-green-400 cursor-pointer mr-3"
+            key={index}
+          >
+            {navLink.name === "//Resume" ? (
+              <a href={navLink.destination} target="_blank">
+                {navLink.name}
+              </a>
+            ) : (
               <Link
                 activeClass="active"
                 to={navLink.destination}
@@ -25,10 +29,10 @@ function NavBar() {
               >
                 {navLink.name}
               </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+            )}
+          </li>
+        ))}
+      </ul>
     </nav>
   );
 }
