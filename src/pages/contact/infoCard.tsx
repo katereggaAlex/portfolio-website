@@ -18,14 +18,14 @@ export default function InfoCard({
         <text>{brackets[0]}</text>
         <ul className="ml-4">
           {personalInfo.map((value, key) => (
-            <li key={key} className="mb-2">
-              {`"${capitalize(value[0])}"`}: &emsp;
+            <li key={key} className="mb-2 line-clamp-1">
+              {capitalize(value[0])}: &emsp;
               {value[1].includes("http") ? (
                 <a className="hover:underline" target="_blank" href={value[1]}>
-                  "{value[1]}"
+                  {value[1]}
                 </a>
               ) : (
-                `"${value[1]}"`
+                value[1]
               )}
             </li>
           ))}

@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { navLinks } from "../nav/nav_links";
+import { navLinks } from "./nav/nav_links";
 import "../styles/experience.css";
 import { workToList } from "../utils/experience_helpers";
 import personal from "../data/personal.json";
-import ExpSection from "../experience/section";
+import ExpSection from "./experience/section";
 
 function Experience() {
   //@ts-ignore

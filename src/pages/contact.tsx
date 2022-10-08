@@ -1,4 +1,4 @@
-import { navLinks } from "../nav/nav_links";
+import { navLinks } from "./nav/nav_links";
 import data from "../data/personal.json";
 import InfoCard from "./contact/infoCard";
 import { useState } from "react";

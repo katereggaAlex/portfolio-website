@@ -1,4 +1,4 @@
-import { ExperienceModel } from "../utils/experience_helpers";
+import { ExperienceModel } from "../../utils/experience_helpers";
 
 export default function ExpSection({
   companyName,

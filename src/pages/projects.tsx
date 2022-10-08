@@ -1,4 +1,4 @@
-import { navLinks } from "../nav/nav_links";
+import { navLinks } from "./nav/nav_links";
 
 function Projects() {
   return (

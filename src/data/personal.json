@@ -87,8 +87,6 @@
     }
   },
 
-  "projects": {},
-
   "logos": {
     "github": {
       "link": "https://github.com/josephkabba/",
@@ -105,6 +103,210 @@
       "logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTE4LjkyLDI0LjA4Yy04LjUzMjgxLDAgLTE1LjQ4LDYuOTQ3MTkgLTE1LjQ4LDE1LjQ4djEuNDY0NjlsODIuNTYsNTguNzM1MzFsODIuNTYsLTU4LjczNTMxdi0xLjQ2NDY5YzAsLTguNTMyODEgLTYuOTQ3MTksLTE1LjQ4IC0xNS40OCwtMTUuNDh6TTIxLjg0OTM4LDMwLjk2aDEyOC4yODc4MWwtNjQuMTM3MTksNDQuNzJ6TTMuNDQsNDguMjU0MDZ2ODQuMTg1OTRjMCw4LjUzMjgxIDYuOTQ3MTksMTUuNDggMTUuNDgsMTUuNDhoMTM0LjE2YzguNTMyODEsMCAxNS40OCwtNi45NDcxOSAxNS40OCwtMTUuNDh2LTg0LjE4NTk0bC0yMC42NCwxNC42ODcxOXY3OC4wOTg3NWgtMTIzLjg0di03OC4wOTg3NXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="
     }
   },
+
+  "projects": [
+    {
+      "name": "KabbaCom Education Teachers",
+      "id": 0,
+      "mainTech": "Android",
+      "featured": true,
+      "type": "m",
+      "image": "",
+      "tech": [
+        "Kotlin",
+        "Java",
+        "Android",
+        "MVVM",
+        "Clean Architechure",
+        "Firebase",
+        "Typescript"
+      ],
+      "description": "Over 450 teachers are using the mobile application to teach students at secondary, primary and vocational level, Teachers in both primary and secondary reported that they were able to teach a large number of students from anywhere whether at home or in their farms.",
+      "link": "https://play.google.com/store/apps/details?id=com.kabbacom.teachers",
+      "repo": ""
+    },
+    {
+      "name": "KabbaCom Education Students",
+      "mainTech": "Android",
+      "id": 1,
+      "featured": true,
+      "type": "m",
+      "image": "",
+      "tech": [
+        "Kotlin",
+        "Java",
+        "Android",
+        "MVVM",
+        "Clean Architechure",
+        "Firebase",
+        "Typescript"
+      ],
+      "description": "This mobile application helps the student study from anywhere they prefer. The project currently has 1000 students and 450 teachers. The project is also in the process of getting a grant from the government of Uganda.The company has received positive feedback from students and parents, that their learning had improved especially in the lock-down. They where able to study remotely and also track there progress in real-time.",
+      "link": "https://play.google.com/store/apps/details?id=com.kabbacom.students",
+      "repo": ""
+    },
+    {
+      "name": "KabbaCom Wesite",
+      "mainTech": "Reactjs",
+      "id": 2,
+      "type": "w",
+      "featured": true,
+      "image": "",
+      "tech": [
+        "Javascript, Tailwind",
+        "Typescript",
+        "Firebase",
+        "Reactjs",
+        "CSS"
+      ],
+      "description": "The website has been visited users to get more information about the company and its digital products",
+      "link": "https://kabbacomeducation.web.app/",
+      "repo": ""
+    },
+    {
+      "name": "KabbaCom Education Teachers Dashboard",
+      "mainTech": "ReactJS",
+      "id": 3,
+      "type": "w",
+      "featured": false,
+      "image": "",
+      "tech": [
+        "Javascript, Tailwind",
+        "Typescript",
+        "Firebase",
+        "Reactjs",
+        "CSS"
+      ],
+      "description": "Over 450 teachers are using the mobile application to teach students at secondary, primary and vocational level. Teachers in both primary and secondary reported that they where able to teach many students from anywhere whether at home or in their farms",
+      "link": "",
+      "repo": ""
+    },
+    {
+      "name": "KabbaCom Internal Staﬀ Mobile App",
+      "mainTech": "Android",
+      "featured": true,
+      "id": 4,
+      "type": "m",
+      "image": "",
+      "tech": [
+        "Kotlin",
+        "Java",
+        "Android",
+        "MVVM",
+        "Clean Architechure",
+        "Firebase",
+        "Typescript"
+      ],
+      "description": "The mobile application is currently being used by over 14 employees in the company for administrative work.",
+      "link": "",
+      "repo": ""
+    },
+    {
+      "name": "Healthier Api",
+      "mainTech": "Nestjs",
+      "featured": false,
+      "id": 5,
+      "type": "a",
+      "image": "",
+      "tech": ["Typescript", "javascript", "node.js", "nest.js", "MongoDB"],
+      "description": "The api is the backbone technology that powers the entire platform.",
+      "link": "http://healthier-2021.herokuapp.com/documentation",
+      "repo": ""
+    },
+    {
+      "name": "Just the way you are girl admin dasboard",
+      "mainTech": "ReactJS",
+      "featured": false,
+      "id": 6,
+      "type": "w",
+      "image": "",
+      "tech": [
+        "Javascript, Tailwind",
+        "Typescript",
+        "Firebase",
+        "Reactjs",
+        "CSS"
+      ],
+      "description": "The project owner uses this web application dashboard to manage her website with users by Sending out messages to users, Filling orders placed by users, Adding content to the website, Updating content on the site",
+      "link": "https://dashboard-justdawayyouaregirl.web.app",
+      "repo": ""
+    },
+    {
+      "name": "Just the way you are girl",
+      "mainTech": "ReactJS",
+      "id": 7,
+      "type": "w",
+      "featured": true,
+      "image": "",
+      "tech": [
+        "Javascript, Tailwind",
+        "Typescript",
+        "Firebase",
+        "Reactjs",
+        "CSS"
+      ],
+      "description": "The web application is being used by teenage girls and young women to skill up in areas of life like mental health, physical health, hygiene, relationships and so many more.",
+      "link": "https://justdawayyouaregirl.web.app",
+      "repo": ""
+    },
+    {
+      "name": "The Watcher",
+      "mainTech": "NextJS",
+      "featured": true,
+      "id": 8,
+      "type": "w",
+      "image": "",
+      "tech": [
+        "Javascript, Tailwind",
+        "Typescript",
+        "Firebase",
+        "Reactjs",
+        "CSS",
+        "NextJS"
+      ],
+      "description": "This application was developed as a project to show case latest news and weather updates. I used it to learn NextJs",
+      "link": "https://the-watcher.vercel.app/",
+      "repo": ""
+    },
+    {
+      "name": "Data structures project",
+      "mainTech": "ReactJS",
+      "featured": false,
+      "id": 9,
+      "type": "w",
+      "image": "",
+      "tech": [
+        "Javascript, Tailwind",
+        "Typescript",
+        "Firebase",
+        "Reactjs",
+        "CSS"
+      ],
+      "description": "This project was designed to help students learning data structures and algorithms see how data structures work practically.",
+      "link": "https://data-structures-project-93e56.web.app",
+      "repo": ""
+    },
+    {
+      "name": "TELA Application",
+      "mainTech": "Android",
+      "id": 10,
+      "type": "m",
+      "featured": true,
+      "image": "https://play-lh.googleusercontent.com/YnOTXFWAVSE_QgkYqSI5-4wcGIuhDwhTdHSLfYuvYQVDcjZZVusvTEYRffeXG30mvDg=w2560-h1440-rw",
+      "tech": [
+        "Kotlin",
+        "Java",
+        "Android",
+        "MVVM",
+        "Clean Architechure",
+        "Firebase",
+        "Typescript"
+      ],
+      "description": "TELA is a time and task performance management system that captures evidence-based information for quick follow-up and decision making. It leverages on interaction with a GPS enabled smartphone with biometric features to capture and monitor near real-time headteacher/teacher, learner attendance and timetable implementation in schools.",
+      "link": "https://play.google.com/store/apps/details?id=co.planetsystems.tela",
+      "repo": ""
+    }
+  ],
 
   "experience": {
     "Kabba Industries": {
@@ -134,7 +336,7 @@
     },
     "planet systems": {
       "id": 2,
-      "title": "Android Developer",
+      "title": "Android Developer (Freelance)",
       "duration": "Feb 2022 - Aug 2022",
       "area": "Uganda Kampala",
       "description": "Worked with a team of 4 developers to create an android mobile application for school eduction administrative purposes.",
