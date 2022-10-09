@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { navLinks } from "./nav/nav_links";
+import { navLinks } from "../utils/nav_links";
 import "../styles/experience.css";
 import { workToList } from "../utils/experience_helpers";
 import personal from "../data/personal.json";
@@ -44,10 +44,9 @@ function Experience() {
       <h1 className="heading">Experience</h1>
       <div className="m-5 p-10 w-full ">
         {data.map((value, key) => (
-          <div className="pt-4">
+          <div key={key} className="pt-4">
             <ExpSection
               state={getState(value[1].id)}
-              key={key}
               data={value[1]}
               openOrClose={flipCopMapStateById}
               companyName={value[0]}

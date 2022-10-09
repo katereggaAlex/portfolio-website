@@ -1,4 +1,4 @@
-import { navLinks } from "./nav/nav_links";
+import { navLinks } from "../utils/nav_links";
 import data from "../data/personal.json";
 import findListLastItem from "../utils/find_list_last_item";
 

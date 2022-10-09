@@ -15,10 +15,10 @@ export default function InfoCard({
       </div>
       <hr className="bg-white mt-1" />
       <div className="text-white p-6 font-bold">
-        <text>{brackets[0]}</text>
+        <h1>{brackets[0]}</h1>
         <ul className="ml-4">
           {personalInfo.map((value, key) => (
-            <li key={key} className="mb-2 line-clamp-1">
+            <li key={key} className="mb-2 sm:line-clamp-1">
               {capitalize(value[0])}: &emsp;
               {value[1].includes("http") ? (
                 <a className="hover:underline" target="_blank" href={value[1]}>
@@ -30,7 +30,7 @@ export default function InfoCard({
             </li>
           ))}
         </ul>
-        <text>{brackets[1]}</text>
+        <h1>{brackets[1]}</h1>
       </div>
     </div>
   );

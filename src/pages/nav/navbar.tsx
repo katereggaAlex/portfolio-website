@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
-import { getNavLinks } from "./nav_links";
+import { getNavLinks } from "../../utils/nav_links";
 import "../../styles/navbar.css";
 
 function NavBar() {

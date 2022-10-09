@@ -1,4 +1,4 @@
-import { navLinks } from "./nav/nav_links";
+import { navLinks } from "../utils/nav_links";
 import Planet from "./home/planet";
 import "../styles/home.css";
 
@@ -24,13 +24,13 @@ function Home() {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
               className="w-7 mt-3 h-7 border animate-bounce border-green-400 rounded-full"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M15.75 17.25L12 21m0 0l-3.75-3.75M12 21V3"
               />
             </svg>

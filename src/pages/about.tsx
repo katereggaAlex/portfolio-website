@@ -10,8 +10,8 @@ export default function About() {
       <div className="m-5 pt-5 flex sm:flex-row flex-col justify-center items-center">
         <img className="rounded w-80 h-80 sm:mr-10" src={coder} />
         <div className="p-5 shadow-2xl relative sm:max-w-lg rounded">
-          {about.map((text) => (
-            <p>
+          {about.map((text, key) => (
+            <p key={key}>
               {text}
               <br />
               <br />
