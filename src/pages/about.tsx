@@ -1,9 +1,10 @@
 import { useState } from "react";
 import data from "../data/personal.json";
-import coder from "../../public/images/coder.gif";
+import { getLocalImageUrl } from "../utils/images";
 
 export default function About() {
   const [about, _] = useState(data.about);
+  const coder = getLocalImageUrl("coder.gif");
   return (
     <div className="layer">
       <h1 className="heading">A little about me</h1>

@@ -1,9 +1,11 @@
 import "../../styles/planet.css";
 import data from "../../data/personal.json";
 import { useState } from "react";
+import { getLocalImageUrl } from "../../utils/images";
 
 export default function Planet() {
   const [images, _] = useState(data.planet);
+  const profile_image = getLocalImageUrl("profile.jpeg");
   return (
     <div className="pt-16 flex flex-col justify-center items-center flex-grow">
       <div className="circle spinning-circle">
@@ -43,7 +45,7 @@ export default function Planet() {
       </div>
       <img
         className="rounded-full -translate-y-[17rem] h-36 w-36"
-        src="../../../public/images/profile.jpeg"
+        src={profile_image}
       />
     </div>
   );

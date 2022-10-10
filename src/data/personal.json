@@ -121,7 +121,7 @@
       "mainTech": "Android",
       "featured": true,
       "type": "m",
-      "image": "",
+      "image": "kabbacom_teachers.png",
       "tech": [
         "Kotlin",
         "Java",
@@ -141,7 +141,7 @@
       "id": 1,
       "featured": true,
       "type": "m",
-      "image": "",
+      "image": "kabbacom_students.png",
       "tech": [
         "Kotlin",
         "Java",
@@ -161,7 +161,7 @@
       "id": 2,
       "type": "w",
       "featured": true,
-      "image": "",
+      "image": "kabbacom_image.png",
       "tech": [
         "Javascript",
         "Tailwind",
@@ -248,7 +248,7 @@
       "id": 7,
       "type": "w",
       "featured": true,
-      "image": "",
+      "image": "jtwyag.png",
       "tech": [
         "Javascript, Tailwind",
         "Typescript",
@@ -266,7 +266,7 @@
       "featured": true,
       "id": 8,
       "type": "w",
-      "image": "",
+      "image": "watcher.png",
       "tech": [
         "Javascript, Tailwind",
         "Typescript",
@@ -303,7 +303,7 @@
       "id": 10,
       "type": "m",
       "featured": true,
-      "image": "https://play-lh.googleusercontent.com/YnOTXFWAVSE_QgkYqSI5-4wcGIuhDwhTdHSLfYuvYQVDcjZZVusvTEYRffeXG30mvDg=w2560-h1440-rw",
+      "image": "tela.png",
       "tech": [
         "Kotlin",
         "Java",

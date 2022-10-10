@@ -1,16 +1,24 @@
 import { Project } from "../../utils/projects";
 import dataset from "../../data/personal.json";
 import { useState } from "react";
+import { getLocalImageUrl } from "../../utils/images";
 
 export default function FeaturedProjectCard({ data }: { data: Project }) {
   const [logos] = useState(dataset.logos);
+  const image = getLocalImageUrl(data.image);
   return (
-    <div className="flex text-left flex-col items-center sm:flex-row w-full p-3">
+    <div className="flex text-left flex-col items-center sm:flex-row  w-full p-3">
       {data.link === "" ? (
-        <img className="rounded w-80 h-60 sm:mr-10" />
+        <img
+          src={image}
+          className="rounded w-[30rem] h-52 sm:shrink sm:mr-10"
+        />
       ) : (
         <a href={data.link} target="_blank">
-          <img className="rounded cursor-pointer hover:opacity-70 w-80 h-60 sm:mr-10" />
+          <img
+            src={image}
+            className="rounded cursor-pointer hover:opacity-70 sm:shrink w-[30rem] h-52 sm:mr-10"
+          />
         </a>
       )}
 
