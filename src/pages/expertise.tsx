@@ -1,6 +1,7 @@
 import { navLinks } from "../utils/nav_links";
 import data from "../data/personal.json";
 import findListLastItem from "../utils/find_list_last_item";
+import EaseInAnimation from "./motion/ease_in_animation";
 
 function Expertise() {
   const expertiseData = data.expertise;
@@ -14,7 +15,7 @@ function Expertise() {
       <h1 className="heading">Expertise</h1>
 
       <div className="m-5 p-10 flex flex-col sm:flex-row">
-        <div className="grow px-5">
+        <EaseInAnimation duration={1.4} className="grow px-5">
           <div className="flex flex-row">
             <img className="w-14 h-14 mr-3" src={expertiseData.android.icon} />
             <h1 className="text-2xl font-bold text-green-600">
@@ -39,9 +40,12 @@ function Expertise() {
                 : `${value}, `
             )}
           </p>
-        </div>
-        <div className="bg-white w-3 sm:visible invisible float-none rounded mx-4"></div>
-        <div className="grow px-5 sm:mt-0 mt-10">
+        </EaseInAnimation>
+        <EaseInAnimation
+          duration={1.5}
+          className="bg-white w-3 sm:visible invisible float-none rounded mx-4"
+        ></EaseInAnimation>
+        <EaseInAnimation duration={1.6} className="grow px-5 sm:mt-0 mt-10">
           <div className="flex flex-row">
             <img className="w-14 h-14 mr-3" src={expertiseData.software.icon} />
             <h1 className="text-2xl font-bold text-yellow-600">
@@ -66,9 +70,12 @@ function Expertise() {
                 : `${value}, `
             )}
           </p>
-        </div>
-        <div className="bg-white w-3 sm:visible invisible float-none rounded mx-4"></div>
-        <div className="grow px-5 sm:mt-0 mt-10">
+        </EaseInAnimation>
+        <EaseInAnimation
+          duration={1.7}
+          className="bg-white w-3 sm:visible invisible float-none rounded mx-4"
+        ></EaseInAnimation>
+        <EaseInAnimation duration={1.8} className="grow px-5 sm:mt-0 mt-10">
           <div className="flex flex-row">
             <img className="w-14 h-14 mr-3" src={expertiseData.frontend.icon} />
             <h1 className="text-2xl font-bold text-blue-300">
@@ -93,9 +100,12 @@ function Expertise() {
                 : `${value}, `
             )}
           </p>
-        </div>
-        <div className="bg-white w-3 sm:visible invisible float-none rounded mx-4"></div>
-        <div className="grow px-5 sm:mt-0 mt-10">
+        </EaseInAnimation>
+        <EaseInAnimation
+          duration={1.9}
+          className="bg-white w-3 sm:visible invisible float-none rounded mx-4"
+        ></EaseInAnimation>
+        <EaseInAnimation duration={2} className="grow px-5 sm:mt-0 mt-10">
           <div className="flex flex-row">
             <img className="w-14 h-14 mr-3" src={expertiseData.backend.icon} />
             <h1 className="text-2xl font-bold text-red-400">
@@ -120,7 +130,7 @@ function Expertise() {
                 : `${value}, `
             )}
           </p>
-        </div>
+        </EaseInAnimation>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ import About from "./pages/about";
 
 function App() {
   return (
-    <div className="h-full relative w-full bg-app_color">
+    <div className="h-full relative w-full font-sans bg-app_color">
       <NavBar />
       <Home />
       <About />
