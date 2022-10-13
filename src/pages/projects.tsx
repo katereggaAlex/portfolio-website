@@ -30,7 +30,7 @@ function Projects() {
   return (
     <div id={navLinks.project.destination} className="layer">
       <h1 className="heading">Projects</h1>
-      <div className="flex  mx-5 p-10 flex-col w-full ">
+      <div className="flex  sm:mx-5 sm:p-10 flex-col w-full ">
         {projects.featured.map((project, key) => (
           <EaseInAnimation
             key={key}

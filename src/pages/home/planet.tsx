@@ -7,7 +7,7 @@ export default function Planet() {
   const [images, _] = useState(data.planet);
   const profile_image = getLocalImageUrl("profile.jpeg");
   return (
-    <div className="pt-16 flex flex-col justify-center items-center flex-grow">
+    <div className="pt-16 flex flex-col sm:px-0 px-10 justify-center items-center flex-grow">
       <div className="circle spinning-circle">
         <img
           className="rounded-full  side-image h-6 w-6"

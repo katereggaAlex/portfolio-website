@@ -11,8 +11,11 @@ function Contact() {
   return (
     <div id={navLinks.contact.destination} className="layer">
       <h1 className="heading">contact</h1>
-      <div className="rounded-xl m-5 p-10 flex sm:justify-between justify-center flex-col sm:flex-row">
-        <InfoCard personalInfo={personalInfo} />
+      <div className="rounded-xl sm:m-5 p-10 flex sm:justify-between justify-center flex-col sm:flex-row">
+        
+          <InfoCard personalInfo={personalInfo} />
+       
+
         <div className="flex flex-col justify-center items-center w-full sm:ml-2">
           <img className="w-44 h-44" src={image} />
           <h1 className="text-center font-medium text-2xl">

@@ -11,8 +11,8 @@
   "resume": "https://drive.google.com/file/d/1JEcFZAH_KA6Ugf_nc0kGU67GnuRLBDFZ/view",
 
   "about": [
-    "I build software for the web and mobile applications for both IOS and android. My journey started back in 2013 when a sow all the cool projects my friend was buiding. I started going to an internet cafe to watch youtube courses on php.",
-    "It was fun most of the time I had no idea what I was doing. Fast foward I have acquired alot of mathematical, technical, logical skills.",
+    "I build software for the web and mobile applications for both IOS and android. My journey started back in 2013 when I saw all the cool projects my friend was buiding. I started going to an internet cafe to watch youtube courses on php.",
+    "It was fun most of the time I had no idea what I was doing. Fast foward I have acquired mathematical, technical, logical skills.",
     "I love working and sharing with people on things I have built and learnt."
   ],
 
@@ -221,7 +221,7 @@
       "image": "",
       "tech": ["Typescript", "javascript", "node.js", "nest.js", "MongoDB"],
       "description": "The api is the backbone technology that powers the entire platform.",
-      "link": "http://healthier-2021.herokuapp.com/documentation",
+      "link": "",
       "repo": ""
     },
     {
@@ -232,7 +232,8 @@
       "type": "w",
       "image": "",
       "tech": [
-        "Javascript, Tailwind",
+        "Javascript",
+        "Tailwind",
         "Typescript",
         "Firebase",
         "Reactjs",
@@ -250,7 +251,8 @@
       "featured": true,
       "image": "jtwyag.png",
       "tech": [
-        "Javascript, Tailwind",
+        "Javascript",
+        "Tailwind",
         "Typescript",
         "Firebase",
         "Reactjs",
@@ -268,7 +270,8 @@
       "type": "w",
       "image": "watcher.png",
       "tech": [
-        "Javascript, Tailwind",
+        "Javascript",
+        "Tailwind",
         "Typescript",
         "Firebase",
         "Reactjs",
@@ -287,7 +290,8 @@
       "type": "w",
       "image": "",
       "tech": [
-        "Javascript, Tailwind",
+        "Javascript",
+        "Tailwind",
         "Typescript",
         "Firebase",
         "Reactjs",

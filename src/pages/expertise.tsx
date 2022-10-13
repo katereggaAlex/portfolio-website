@@ -14,7 +14,7 @@ function Expertise() {
     <div id={navLinks.expertise.destination} className="layer">
       <h1 className="heading">Expertise</h1>
 
-      <div className="m-5 p-10 flex flex-col sm:flex-row">
+      <div className="sm:m-5 sm:p-10 flex flex-col sm:flex-row">
         <EaseInAnimation duration={1.4} className="grow px-5">
           <div className="flex flex-row">
             <img className="w-14 h-14 mr-3" src={expertiseData.android.icon} />

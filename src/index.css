@@ -12,6 +12,6 @@
   }
 
   .heading {
-    @apply text-2xl p-5 sm:ml-12 font-semibold sm:text-4xl
+    @apply text-2xl sm:text-left text-center p-5 sm:ml-12 font-semibold sm:text-4xl
   }
 }

@@ -7,7 +7,7 @@ export default function InfoCard({
 }) {
   const brackets: string[] = ["{", "}"];
   return (
-    <div className="flex flex-col sm:ml-10 shadow-xl w-full bg-purple-800  rounded-xl transition-grow">
+    <div className="sm:flex flex-col sm:ml-10 shadow-xl w-full hidden bg-purple-800  rounded-xl transition-grow">
       <div className="flex flex-row p-3 justify-start">
         <div className="rounded-full shadow w-4 h-4 mr-2 bg-red-400"></div>
         <div className="rounded-full shadow w-4 h-4 mr-2 bg-orange-400"></div>

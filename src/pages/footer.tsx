@@ -5,13 +5,13 @@ import { openEmailClient } from "../utils/email";
 export default function Footer() {
   const [logos] = useState(data.logos);
   return (
-    <div className="layer px-20 pb-10 flex sm:flex-row flex-col sm:justify-between justify-center">
+    <div className="layer px-20 pb-10 flex sm:flex-row flex-col sm:justify-between text-center justify-center">
       <div className="w-full">
-        <h1 className="w-full text-left">
+        <h1 className="w-full sm:text-left">
           This site was created by Kabba Joseph Timothy
         </h1>
 
-        <h1 className="w-full text-left">©copyright since 2022</h1>
+        <h1 className="w-full sm:text-left">©copyright since 2022</h1>
       </div>
       <div className="w-full flex flex-row sm:justify-end justify-center">
         <a href={logos.github.link} target="_blank">

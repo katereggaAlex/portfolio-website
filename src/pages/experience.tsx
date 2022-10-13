@@ -42,7 +42,7 @@ function Experience() {
   return (
     <div id={navLinks.experience.destination} className="layer">
       <h1 className="heading">Experience</h1>
-      <div className="m-5 p-10 w-full ">
+      <div className="sm:m-5 sm:p-10">
         {data.map((value, key) => (
           <div key={key} className="pt-4">
             <ExpSection
