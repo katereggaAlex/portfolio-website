@@ -1,4 +1,4 @@
 # portfolio-website
-download vite
-delete firebase 
-download yarn
+download vite,
+delete firebase ,
+download yarn.
